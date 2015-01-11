@@ -244,15 +244,13 @@
         </mapAttribute>
     </attributes>
     <buildtargets>
-        <buildtarget buildtool="Linker" name="LibraDrive2015" passed="false" targetname="LibraDrive2015">
+        <buildtarget buildtool="Linker" name="LibraDrive2014" passed="false" targetname="LibraDrive2014">
             <contents>
                 <buildtargetreference name="/LibraDrive2015/LibraDrive2015Partial"/>
             </contents>
         </buildtarget>
-        <buildtarget buildtool="Partial Image Linker" name="LibraDrive2015Partial" passed="true" targetname="LibraDrive2015Partial">
-            <contents>
-                <folder name="/LibraDrive2015" recursive="true"/>
-            </contents>
+        <buildtarget buildtool="Partial Image Linker" name="LibraDrive2014Partial" passed="true" targetname="LibraDrive2014Partial">
+            <contents/>
         </buildtarget>
     </buildtargets>
 </wrxml>
